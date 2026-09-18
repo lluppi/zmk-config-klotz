@@ -4,14 +4,14 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: leekool
-      url-base: https://github.com/leekool
+    - name: lluppi
+      url-base: https://github.com/lluppi
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-rgbled-widget
-      remote: leekool
+      remote: lluppi
       revision: main
   self:
     path: config
